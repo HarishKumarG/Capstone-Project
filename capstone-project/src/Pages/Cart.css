@@ -1,0 +1,15 @@
+.cart{
+    margin-top: 20%;
+}
+
+.cart p{
+text-align: center;
+color: rgb(179, 179, 179);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+opacity: 0%;
+}
+
+.cart-text{
+    margin-top: 18%;
+    text-align: center;
+}

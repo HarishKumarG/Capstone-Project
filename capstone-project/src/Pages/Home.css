@@ -1,0 +1,267 @@
+.Home-layout{
+background-color: rgb(73,94,87);
+
+}
+
+.Home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home-content{
+    margin-left: 20px;
+    margin-top: 0%;
+}
+
+.Home-image {
+    width: 250px; /* Set width for the image container */
+    margin-right: 50px;
+    margin-top: 35px;
+  }
+
+.Home-image img {
+    width: 100%;
+    border-radius: 10px;
+
+  }
+
+.Home-content h1, h4{
+    font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+    margin-bottom: 0%;
+      margin-top: 0%;
+      padding-top: 20px;
+}
+
+.Home-content p{
+    font-family: "Alumni Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+  width: 300px;
+}
+.Home-layout button{
+    background-color: rgb(244, 206, 20);
+    border-radius: 30px;
+    border: none;
+    font-family: "Alumni Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: rgb(73, 94, 87);
+}
+
+.Home-layout button:hover{
+    background-color: rgb(237, 239, 238);
+    cursor: pointer;
+    color: rgb(244, 206, 20);
+
+}
+.Home-layout button a{
+  text-decoration: none;
+  color: #fff;
+}
+/* body section */
+
+.Body {
+  background-color: aliceblue;
+}
+
+#quote{
+    font-family: "Bad Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 0%;
+  padding-bottom: 10px;
+}
+
+.Body-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Body-content h2 {
+  margin-left: 20px;
+  color: rgb(73, 94, 87);
+}
+
+.Body-content button {
+  background-color: rgb(73, 94, 87);
+  border: none;
+  font-family: "Alumni Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 30px;
+  border: none;
+  margin-right: 30px;
+  color: rgb(237, 239, 238);
+}
+
+.Body-content button:hover {
+  cursor: pointer;
+  border: 1px solid rgb(244, 206, 20);
+}
+
+.Body-menu {
+  display: flex;
+}
+
+.Body-menu-list {
+  width: 40%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  text-align: center;
+  border: 2px solid rgb(244, 206, 20);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px rgba(244, 206, 20, 0.2);
+}
+
+.Body-menu-list img {
+  margin-top: 20px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 10px rgba(244, 206, 20, 0.5);
+}
+
+.Body-menu-list h3 {
+  margin-bottom: 5px;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-style: bold;
+  color: rgb(73, 94, 87);
+  text-decoration: underline rgb(73, 94, 87);
+  margin-top: 20px;
+}
+ .Body-menu-list p {
+  margin-top: 5px;
+  text-align: justify;
+  width: 300px;
+  margin-left: 15%;
+  color: rgb(73, 94, 87);
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+}
+
+.Body-menu-list button {
+  margin-bottom: 20px;
+  border-radius: 50px;
+  border: none;
+  font-family: "Alumni Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(244, 206, 20);
+}
+
+.Body-menu-list button:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(244, 206, 20);
+  cursor: pointer;
+}
+
+/* reviews section */
+
+
+.Review-section {
+  background-color: rgb(244, 215, 74); /* Full background color */
+  padding: 10px;
+  margin-top: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Review-section > h3:first-child {
+  text-align: center;
+  color: #fff;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-style: bold;
+  text-shadow: 1px 1px 10px rgb(73, 94, 87), 1px 1px 10px rgb(73, 94, 87);
+}
+.Review-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.Review {
+  background-color: #fff; /* Review card background color */
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Review-content {
+  display: flex;
+  align-items: center;
+}
+
+.Review-details h4 {
+  color: black;
+  
+}
+
+.Review-content img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 40px; /* Add spacing between image and details */
+}
+
+.Review-details {
+  flex: 1; /* Allow the details to take remaining space */
+}
+
+.Review h3,
+.Review h4 {
+  margin: 5px 0;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.Review-para p {
+  text-align: justify;
+  font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    text-align: center;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #e68a00;
+}

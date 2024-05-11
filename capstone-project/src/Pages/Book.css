@@ -1,0 +1,87 @@
+.table-booking-form {
+  max-width: 50%;
+  padding: 20px;
+  margin-left: 23%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px solid rgb(244, 206, 20);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px rgba(244, 206, 20, 0.5);
+  background-color: transparent;
+}
+
+.Form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.Form-header h3 {
+  margin-left: 5px;
+  color: rgb(73, 94, 87);
+  font-family: "Inria Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.Form-occasion select {
+  color: rgb(73, 94, 87);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: bold;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(244, 206, 20);
+  border-radius: 5px;
+}
+
+.table-booking-form input[type="text"],
+.table-booking-form input[type="email"],
+.table-booking-form input[type="tel"],
+.table-booking-form input[type="date"],
+.table-booking-form input[type="time"],
+.table-booking-form input[type="number"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.table-booking-form label {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+}
+.table-booking-form button {
+  width: 120px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 40%;
+   margin-bottom: 20px;
+  font-family: "Alumni Sans", sans-serif;
+  font-style: normal;
+  font-size: large;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(244, 206, 20);
+}
+
+
+.table-booking-form button:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(244, 206, 20);
+  cursor: pointer;
+}
+
+.popup{
+  text-align: center;
+}
